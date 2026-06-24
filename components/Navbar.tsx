@@ -28,6 +28,7 @@ export default function Navbar() {
           <Link href="/student-life" className="hover:text-blue-600 transition duration-200">Student Life</Link>
           <Link href="/facilities" className="hover:text-blue-600 transition duration-200">Facilities</Link>
           <Link href="/faculty" className="hover:text-blue-600 transition duration-200">Faculty</Link>
+          <Link href="/faq" className="hover:text-blue-600 transition duration-200">FAQ</Link>
           <Link href="/contact" className="hover:text-blue-600 transition duration-200">Contact</Link>
         </nav>
 
@@ -54,6 +55,7 @@ export default function Navbar() {
           <Link href="/student-life" onClick={() => setOpen(false)} className="hover:text-blue-600 transition">Student Life</Link>
           <Link href="/facilities" onClick={() => setOpen(false)} className="hover:text-blue-600 transition">Facilities</Link>
           <Link href="/faculty" onClick={() => setOpen(false)} className="hover:text-blue-600 transition">Faculty</Link>
+          <Link href="/faq" onClick={() => setOpen(false)} className="hover:text-blue-600 transition">FAQ</Link>
           <Link href="/contact" onClick={() => setOpen(false)} className="hover:text-blue-600 transition">Contact</Link>
         </div>
       )}

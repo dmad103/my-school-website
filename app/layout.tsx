@@ -17,8 +17,9 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Divine Shepherd College of Lipa City",
-  description: "Official School Website",
+  title: "Divine Shepherd College of Lipa City, Inc.",
+  description:
+    "Official website of Divine Shepherd College of Lipa City, Inc. offering Kindergarten, Elementary, Junior High School, Senior High School, and Bachelor of Science in Criminology.",
 };
 
 export default function RootLayout({
